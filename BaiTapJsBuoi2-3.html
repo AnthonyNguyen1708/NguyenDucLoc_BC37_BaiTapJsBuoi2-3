@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+      <div id="bai-tap-JS-buoi2-3">
+        <div class="container py-5">
+
+          <h1 class="text-center mb-5 text-white bg-danger">BÀI TẬP JS BUỔI 2&3</h1>
+          <ul
+              class="nav nav-pills mb-3 d-flex justify-content-center"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="pills-bai1-tab"
+                  data-toggle="pill"
+                  href="#pills-bai1"
+                  role="tab"
+                  aria-controls="pills-bai1"
+                  aria-selected="true"
+                  >Bài 1</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-bai2-tab"
+                  data-toggle="pill"
+                  href="#pills-bai2"
+                  role="tab"
+                  aria-controls="pills-bai2"
+                  aria-selected="false"
+                  >Bài 2</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-bai3-tab"
+                  data-toggle="pill"
+                  href="#pills-bai3"
+                  role="tab"
+                  aria-controls="pills-bai3"
+                  aria-selected="false"
+                  >Bài 3</a
+                >
+              </li>
+  
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-bai4-tab"
+                  data-toggle="pill"
+                  href="#pills-bai4"
+                  role="tab"
+                  aria-controls="pills-bai4"
+                  aria-selected="false"
+                  >Bài 4</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="pills-bai5-tab"
+                  data-toggle="pill"
+                  href="#pills-bai5"
+                  role="tab"
+                  aria-controls="pills-bai5"
+                  aria-selected="false"
+                  >Bài 5</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="pills-bai1"
+                role="tabpanel"
+                aria-labelledby="pills-bai1-tab"
+              ><div class="bai1">
+                <p class="text-warning display-4">
+                <i class="fa fa-coins "></i>
+                Tính tiền lương</p>
+                <div class="form-group">
+                  <label for="">Lương 1 ngày</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-luong-ngay"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Số ngày làm</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-ngay-lam"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <button id="btn-tinh-luong" class="btn btn-warning">Tính lương</button>
+        
+                <p class="text-primary mt-5" id="tien-luong"></p>
+              </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-bai2"
+                role="tabpanel"
+                aria-labelledby="pills-bai2-tab"
+              ><div class="bai2">
+                <p class="text-warning display-4">
+                  <i class="fa fa-balance-scale"></i> 
+                  Tính giá trị trung bình</p>
+                <div class="form-group">
+                  <label for="">Số thứ nhất</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-so-1"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Số thứ hai</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-so-2"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Số thứ ba</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-so-3"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Số thứ tư</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-so-4"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Số thứ năm</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-so-5"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <button id="btn-so-tb" class="btn btn-warning">
+                  Tính số trung bình
+                </button>
+        
+                <p class="text-primary mt-5" id="so-tb"></p>
+              </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-bai3"
+                role="tabpanel"
+                aria-labelledby="pills-bai3-tab"
+              >  <div class="bai3">
+                <p class="text-warning display-4">
+                  <i class="fa fa-dollar-sign"></i> Quy đổi tiền</p>
+                <div class="form-group">
+                  <label for="">Nhập số tiền USD</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-usd"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <button id="btn-doi-tien" class="btn btn-warning">
+                  Quy đổi tiền
+                </button>
+        
+                <p class="text-primary mt-5" id="doi-tien"></p>
+              </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-bai4"
+                role="tabpanel"
+                aria-labelledby="pills-bai4-tab"
+              ><div class="bai4">
+                <p class="text-warning display-4">
+                  <i class="fa fa-ruler"></i> 
+                  Tính diện tích, chu vi hình chữ nhật
+                </p>
+                <div class="form-group">
+                  <label for="">Nhập chiều dài</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-chieu-dai"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <div class="form-group">
+                  <label for="">Nhập chiều rộng</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="txt-chieu-rong"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <button id="btn-ket-qua" class="btn btn-warning">
+                  Tính
+                </button>
+        
+                <p class="text-primary mt-5" id="ket-qua"></p>
+        
+              </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="pills-bai5"
+                role="tabpanel"
+                aria-labelledby="pills-bai5-tab"
+              ><div class="bai5">
+                <p class="text-warning display-4">
+                <i class="fa fa-calculator"></i>
+                Tính tổng 2 ký số</p>
+                <div class="form-group">
+                  <label for="">Nhập 1 số có 2 chữ số</label>
+                  <input
+                    type="number"
+                    name=""
+                    id="txt-number"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                  />
+                </div>
+        
+                <button id="btn-number" class="btn btn-warning">Tính tổng</button>
+        
+                <p class="text-primary mt-5" id="out-come"></p>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./BaiTapJsBuoi2-3.js"></script>
+  </body>
+</html>
